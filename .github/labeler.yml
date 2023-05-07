@@ -1,0 +1,2 @@
+schema-change-noteworthy:
+- plugins/**/schema.lua
