@@ -10,6 +10,7 @@ return {
         type = "record",
         fields = {
           { allow = { type = "array", elements = { type = "string" }, }, },
+          { ignore = { type = "array", elements = { type = "string" }, }, },
           { deny = { type = "array", elements = { type = "string" }, }, },
           { hide_groups_header = { type = "boolean", required = true, default = false }, },
         },
